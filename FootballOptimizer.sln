@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballOptimizer", "FootballOptimizer\FootballOptimizer.csproj", "{FB3F3EF0-747B-4A9A-97EA-3BEF02C6343D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auxiliary", "FootballOptimizer\Auxiliary\Auxiliary.csproj", "{C6E09BBA-2A95-4B06-98EC-02B3259698F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNet", "FootballOptimizer\NeuralNet\NeuralNet.csproj", "{3F315DFA-E462-486D-90E8-BBBFC049EAC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivationFunction", "FootballOptimizer\ActivationFunctions\ActivationFunction.csproj", "{E5102EB9-13C9-4B3F-9F10-1CB53932FD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBManagement", "DBManagement\DBManagement.csproj", "{AF9C3CF9-C4FC-42D6-8316-9F8C565D7D26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB3F3EF0-747B-4A9A-97EA-3BEF02C6343D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3F3EF0-747B-4A9A-97EA-3BEF02C6343D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3F3EF0-747B-4A9A-97EA-3BEF02C6343D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3F3EF0-747B-4A9A-97EA-3BEF02C6343D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E09BBA-2A95-4B06-98EC-02B3259698F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E09BBA-2A95-4B06-98EC-02B3259698F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E09BBA-2A95-4B06-98EC-02B3259698F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E09BBA-2A95-4B06-98EC-02B3259698F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F315DFA-E462-486D-90E8-BBBFC049EAC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F315DFA-E462-486D-90E8-BBBFC049EAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F315DFA-E462-486D-90E8-BBBFC049EAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F315DFA-E462-486D-90E8-BBBFC049EAC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5102EB9-13C9-4B3F-9F10-1CB53932FD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5102EB9-13C9-4B3F-9F10-1CB53932FD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5102EB9-13C9-4B3F-9F10-1CB53932FD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5102EB9-13C9-4B3F-9F10-1CB53932FD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9C3CF9-C4FC-42D6-8316-9F8C565D7D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9C3CF9-C4FC-42D6-8316-9F8C565D7D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9C3CF9-C4FC-42D6-8316-9F8C565D7D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9C3CF9-C4FC-42D6-8316-9F8C565D7D26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
